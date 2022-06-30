@@ -1,8 +1,15 @@
+@mixin desktopindex{
+    @media (max-width: 900px){
+        @content;
+    }
+}
+
 @mixin desktop {
     @media  (max-width:  576px){
         @content;
 
     }
+
 }
 @mixin movil {
     @media   (max-width: 360px){

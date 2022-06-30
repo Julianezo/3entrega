@@ -10,26 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Contacto</title>
+    <link rel="icon" type="image/jpg" href="../archivos/logo.png">
 </head>
 <body>
     <header class="header__index">
-        <img class="img__link" src="../archivos/logo.png" alt="">
+        <a href="../index.html"><img class="img__link" src="../archivos/logo.png" alt=""></a>
         <ul class="lista__index"> 
-            <li class="lista__index"><a class="textoinicio" href="../Datos/historia.html">Historia</a></li>
             <li class="lista__index"><a class="textoinicio"  href="../Datos/informacion.html">Información</a></li>
             <li class="lista__index"><a class="textoinicio"  href="../Datos/contacto.html">Contacto</a></li>
             <li class="lista__index"><a class="textoinicio"  href="../Datos/ubicacion.html">Ubicacion</a></li>
-            <li class="lista__index"><a class="textoinicio"  href="../index.html">Inicio</a></li>
         </ul>
 
 
     </header>
     <main>
-    <section>
+    <section data-aos="fade-right" data-aos-duration="2000">
+        
+        <form action="" class="contact" method="POST">
+            <label for="nombres">Nombres</label>
+            <input type="text" name="nombres" id="nombres">
+      
+            <label for="correo">Correo</label>
+            <input type="text" name="correo" id="correo">
+      
+            <label for="nombres">Celular</label>
+            <input type="text" name="celular" id="celular">
+      
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <input type="submit" value="Enviar">
+      
+        </form>
         <div class="contacto__contenedor">
-            <div data-aos="fade-up" data-aos-duration="3000"><a href=""><img class="imagen__contacto" src="../archivos/emaillogo.png" alt=""></a></div>
-            <div data-aos="fade-up" data-aos-duration="3000"><a href=""><img  class="imagen__contacto" src="../archivos/logogithub.png" alt=""></a></div>
-            <div data-aos="fade-up" data-aos-duration="3000"><a href=""><img class="imagen__contacto" src="../archivos/87390.png" alt=""></a></div>
+            <div data-aos="fade-up" data-aos-duration="2000"><a href=""><img class="imagen__contacto" src="../archivos/emaillogo.png" alt=""></a></div>
+            <div data-aos="fade-up" data-aos-duration="2000"><a href=""><img  class="imagen__contacto" src="../archivos/logogithub.png" alt=""></a></div>
+            <div data-aos="fade-up" data-aos-duration="2000"><a href=""><img class="imagen__contacto" src="../archivos/87390.png" alt=""></a></div>
         </div>
     </section>
     </main>

@@ -14,8 +14,8 @@
 
 @mixin contenido-pagina-texto{
     display: flex;
-    text-align: center;
     justify-content: center;
+    text-align: justify;
     padding: 60px;
     margin: 50px 80px 50px 80px;
     background-color: aliceblue;
@@ -65,10 +65,10 @@
     .lista__index{
         padding: 10px;
             @include desktop{
-                font-size: small;
+                font-size: large;
             }
             @include movil{
-                font-size: 13px;
+                font-size: medium;
             }
     }
     .textoinicio{
